@@ -1,0 +1,23 @@
+---
+title: "Plot"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+date: "2024-10-17"
+---
+
+# Here are some plots
+```{r}
+library(tidyverse)
+df = tibble(
+  x = rnorm(100,2,5),
+  y = 1+2*x-.5*x^2 + rnorm(100)
+)
+
+df|>
+  ggplot(aes(x = x, y = y)) +
+  geom_point()
+```
+

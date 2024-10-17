@@ -1,0 +1,15 @@
+---
+title: "About this website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+date: "2024-10-17"
+---
+
+# Information about this website
+
+<!-- This website ![](/Users/kakashi/Desktop/IMPORTANT/PHONIEX/100WIN.jpg) -->
+
+you can go [home](index.html)
